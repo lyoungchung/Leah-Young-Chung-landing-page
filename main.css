@@ -44,6 +44,10 @@ ul{
 
 }
 
+li{
+    list-style: none;
+}
+
 #newsletter{
     display: flex;
     flex-direction: column;
@@ -54,9 +58,27 @@ ul{
     margin-top: 20px;
 }
 
+#features{
+    background-color: rgb(255, 228, 78);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #How-it-works{
     display: flex;
-    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+#pricing{
+    background-color: rgb(255, 208, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
 }
 
